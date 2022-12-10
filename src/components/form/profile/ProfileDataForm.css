@@ -1,0 +1,66 @@
+.profile-data-form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.profile-data-form-agreement {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+@media screen and (max-width: 700px) {
+    .profile-data-form-agreement {
+        margin: 0 auto;
+    }
+}
+.profile-data-form__agree-checkbox {
+    width: 18px;
+    height: 18px;
+}
+.profile-data-form__agree-label {
+    display: block;
+    line-height: 32px;
+    color: #000000;
+}
+.terms-of-use {
+    color: #007AFF;
+}
+.profile-data-form-personal-data {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+@media screen and (max-width: 700px) {
+    .profile-data-form-personal-data {
+        padding: 32px 0 0;
+        border-radius: 0;
+        border: none;
+        border-top: 1px solid #BBBFC1;
+    }
+}
+.profile-data-form-personal-data__title {
+    margin-bottom: 2px;
+}
+.profile-data-form-personal-data__desc {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575F6E;
+}
+.profile-data-form-birth-info {
+    display: flex;
+    gap: 32px;
+}
+@media screen and (max-width: 700px) {
+    .profile-data-form-birth-info {
+        flex-direction: column;
+    }
+}
+.profile-data-form-birth-info__calendar, .profile-data-form-birth-info__select {
+    width: 180px;
+}
+@media screen and (max-width: 700px) {
+    .profile-data-form__btn {
+        margin: 0 auto;
+    }
+}

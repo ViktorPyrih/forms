@@ -1,0 +1,15 @@
+.labeled-select {
+    flex: 1;
+    font-size: 18px;
+    color: #242426;
+}
+.labeled-select__label {
+    margin-bottom: 8px;
+}
+.labeled-select__select {
+    width: 100%;
+}
+.labeled-select__select > *[class$="menu"] {
+    font-size: 14px;
+    line-height: 20px;
+}

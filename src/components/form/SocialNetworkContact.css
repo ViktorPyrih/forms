@@ -1,0 +1,10 @@
+.social-network-contact {
+    display: flex;
+    gap: 16px;
+}
+.social-network-contact__network {
+    width: 188px;
+}
+.social-network-contact__input {
+    width: 188px;
+}

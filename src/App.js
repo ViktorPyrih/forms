@@ -1,25 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import profileSchema from "./data/profile-schema.json";
+import {createContext} from "react";
+import RegistrationPage from "./pages/RegistrationPage";
+import ProfilePage from "./pages/ProfilePage";
+import {createBrowserRouter, redirect, RouterProvider} from "react-router-dom";
+
+export const Context = createContext(profileSchema);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const router = createBrowserRouter([
+        {
+            path: "/",
+            loader: () => {
+                throw redirect("/registration");
+            }
+        },
+        {
+            path: "/registration",
+            element: <RegistrationPage/>
+        },
+        {
+            path: "/profile",
+            element: <ProfilePage/>
+        },
+        {
+            path: "/*",
+            loader: () => {
+                throw redirect("/");
+            }
+        }
+    ]);
+    return (
+        <Context.Provider value={profileSchema}>
+            <RouterProvider router={router}/>
+        </Context.Provider>
+    );
 }
 
 export default App;

@@ -1,0 +1,11 @@
+.progress-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+@media screen and (max-width: 700px) {
+    .progress-bar {
+        width: 148px;
+        margin: 0 auto 80px;
+    }
+}

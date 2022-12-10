@@ -1,0 +1,11 @@
+.progress-point {
+    box-sizing: border-box;
+    width: 12px;
+    height: 12px;
+    background: #FFFFFF;
+    border: 1px solid #B9B9C4;
+    border-radius: 6px;
+}
+.progress-point_background_blue {
+    background: #007AFF;
+}

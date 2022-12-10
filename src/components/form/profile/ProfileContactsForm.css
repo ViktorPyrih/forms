@@ -1,0 +1,37 @@
+.profile-contacts-form-fieldset {
+    margin-bottom: 32px;
+}
+@media screen and (max-width: 700px) {
+    .profile-contacts-form-fieldset {
+        padding: 32px 0 0;
+        border-radius: 0;
+        border: none;
+        border-top: 1px solid #BBBFC1;
+    }
+}
+.profile-contacts-form-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+.profile-contacts-form-social {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.profile-contacts-form-social__add-btn {
+    box-sizing: border-box;
+    width: 118px;
+    height: 27px;
+    padding: 0 16px 0 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #007AFF;
+}
+.profile-contacts-form-social__add-btn:hover {
+    border-bottom: solid 1px #007AFF;
+}

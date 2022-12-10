@@ -1,0 +1,9 @@
+.form-header__title {
+    margin-bottom: 2px;
+}
+.form-header__desc {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575F6E;
+}

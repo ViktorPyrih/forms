@@ -1,0 +1,27 @@
+.btn {
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 12px 24px;
+    background: #FFFFFF;
+    border: 1px solid #BBBFC1;
+    border-radius: 4px;
+    font-family: Poppins, serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #242731;
+}
+.btn:hover {
+    background: #242731;
+    color: #FFFFFF;
+}
+.btn-primary {
+    background: #007AFF;
+    color: #FFFFFF;
+}
+.btn-primary:hover {
+    background: #FFFFFF;
+    color: #007AFF;
+}

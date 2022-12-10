@@ -1,0 +1,167 @@
+/* Reset style start */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul, li {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reset style end */
+
+
+
+/* Main style start */
+
+body {
+    font-family: Poppins, serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    color: #FFFFFF;
+}
+input:focus-visible {
+    outline: #007AFF auto 1px;
+}
+button {
+    border: none;
+    background: transparent;
+}
+button:hover {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.page {
+    position: absolute;
+    top: 44px;
+    left: 50%;
+    translate: -50%;
+    width: 456px;
+    padding-bottom: 60px;
+}
+@media screen and (max-width: 700px) {
+    .page {
+        width: 342px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .page {
+        position: relative;
+    }
+}
+.wrapper {
+    padding-left: 88px;
+    padding-right: 44px;
+}
+@media screen and (max-width: 700px) {
+    .wrapper {
+        padding-left: 24px;
+        padding-right: 8px;
+    }
+}
+.title {
+    color: #242731;
+}
+.title-primary {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+}
+.title-secondary {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+.form-frame {
+    padding: 32px;
+    border: 1px solid #E2E4E5;
+    border-radius: 8px;
+}
+.form-frame_padding_16px {
+    padding: 16px;
+}
+.label {
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    color: #575F6E;
+}
+.label_color_dark {
+    color: #242426;
+}
+.label_primary {
+    font-size: 14px;
+    line-height: 20px;
+}
+.input {
+    font-size: 18px;
+    color: #242426;
+    border: none;
+    border-bottom: solid 2px #E2E4E5;
+    padding: 0;
+}
+.input:focus-visible {
+    outline: none;
+    border-bottom: solid 2px #007AFF;
+}
+.select {
+    display: inline-block;
+    height: 44px;
+    border-bottom: solid 2px #E2E4E5;
+    line-height: 28px;
+    min-width: 120px;
+    color: #242426;
+}
+.select:focus-within {
+    border-bottom: solid 2px #007AFF;
+}
+.select > div {
+    line-height: 30px;
+    border: none;
+    box-shadow: none;
+}
+.invalid {
+    border-bottom: solid 2px orangered;
+}
+
+/* Main style end */

@@ -1,0 +1,23 @@
+{
+  "personalData": {
+    "firstName": "",
+    "secondName": "",
+    "dob": "",
+    "placeOfBirth": ""
+  },
+  "contacts": {
+    "email": "",
+    "phone": {
+      "code": "",
+      "number": ""
+    }
+  },
+  "socialNetworkProfiles": [],
+  "deliveryAddress": {
+    "address": "",
+    "city": "",
+    "country": "",
+    "zipCode": "",
+    "optional": ""
+  }
+}

@@ -1,0 +1,21 @@
+.labeled-calendar {
+    border-bottom: solid 2px #E2E4E5;
+}
+.invalid {
+    border-bottom: solid 2px orangered;
+}
+.labeled-calendar input {
+    width: 180px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #242426;
+    border: none;
+    padding: 8px;
+    line-height: 26px;
+}
+.labeled-calendar input:focus-visible {
+    outline: none;
+}
+.labeled-calendar__label {
+    margin-bottom: 8px;
+}

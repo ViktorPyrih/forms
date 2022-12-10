@@ -1,0 +1,18 @@
+.labeled-input__label {
+    margin-bottom: 8px;
+}
+.input-wrapper {
+    display: flex;
+    align-items: center;
+}
+.labeled-input__input {
+    flex: 1;
+    line-height: 42px;
+    padding-left: 16px;
+}
+.labeled-input__eye-btn {
+    position: relative;
+    right: 22px;
+    width: 0;
+    padding: 12px 0 14px;
+}

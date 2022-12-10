@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.logo-container__title {
+    font-family: Raleway serif;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #242731;
+}

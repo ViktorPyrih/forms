@@ -1,0 +1,58 @@
+.phone-confirmation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.phone-confirmation-form__code-label {
+    width: 296px;
+    margin-bottom: 8px;
+}
+.confirmation-code-container-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (max-width: 700px) {
+    .confirmation-code-container-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+}
+.phone-confirmation-form__code-input {
+    width: 296px;
+    padding: 8px;
+    line-height: 24px;
+    letter-spacing: 8px;
+    margin-bottom: 8px;
+}
+.confirmation-code-container-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background: transparent;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+@media screen and (max-width: 700px) {
+    .confirmation-code-container-btn {
+        padding: 0;
+    }
+}
+.confirmation-code-container-btn__text {
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #007AFF;
+}
+.phone-confirmation-form__code-notice {
+    color: #575F6E;
+    font-size: 12px;
+    line-height: 16px;
+}
+@media screen and (max-width: 700px) {
+    .phone-confirmation-form__btn {
+        margin: 0 auto;
+    }
+}
